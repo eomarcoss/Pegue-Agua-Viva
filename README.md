@@ -31,4 +31,4 @@ O nível de dificuldade afeta a **velocidade** com que a água-viva aparece e so
 
 ## 📝 Autor
 
-* [Seu Nome / Nickname]
+Marcos César Marinho
