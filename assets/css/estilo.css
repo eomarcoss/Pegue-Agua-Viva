@@ -1,0 +1,70 @@
+html {
+    cursor: url(../imagens/pegador.png) 30 30, auto;
+}
+
+
+body {
+    background-image: url(../imagens/cenario.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.painel {
+    position: absolute;
+    width: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    bottom: 5%;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.vidas {
+    width: 100%; 
+    text-align: center;
+}
+
+.cronometro {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.agua_viva1 {
+    width: 50px;
+    height: auto;
+}
+
+.agua_viva2 {
+    width: 70px;
+    height: auto;
+}
+
+
+.agua_viva3 {
+    width: 120px;
+    height: auto;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+.jogar button:hover{
+    background-color: rgb(254, 52, 96);
+}
+
+select .nivel{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
